@@ -1,4 +1,4 @@
-package com.hash.pattern.star;
+package com.hash.basic;
 
 import java.util.ArrayList;
 import java.util.List;
