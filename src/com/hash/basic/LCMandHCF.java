@@ -11,8 +11,10 @@ public class LCMandHCF {
 		int n1 = sc.nextInt();
 		System.out.println("Please enter second number");
 		int n2 = sc.nextInt();
-		System.out.println("LCM of 2 given numbers is "+ LCMandHCF.getLCM(n1, n2)+" looping count "+count);
-		System.out.println("HCF of 2 given numbers is "+ LCMandHCF.getHCF(n1, n2));
+		System.out.println("LCM of 2 given numbers is "+ getLCM(n1, n2)+" looping count "+count);
+		System.out.println("HCF of 2 given numbers is "+ getHCF(n1, n2));
+		int lcm = n1*n2/getHCF(n1, n2);
+		System.out.println("LCM with diff logic "+lcm);
 	}
 	
 	public static int getLCM(int n1, int n2) {
