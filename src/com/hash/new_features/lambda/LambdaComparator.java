@@ -8,7 +8,7 @@ public class LambdaComparator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		ArrayList<Integer> al = new ArrayList<>();
 		al.add(20);
 		al.add(10);
@@ -26,7 +26,8 @@ public class LambdaComparator {
 		
 		al.stream().forEach(System.out::println);
 		
-
+		BasicLambda.AddFunction addFunction = (a, b) ->a+b;
+		System.out.println(addFunction.add(10,11));
 	}
 
 }
